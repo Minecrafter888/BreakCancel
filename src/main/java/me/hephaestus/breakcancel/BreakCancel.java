@@ -9,6 +9,8 @@ public final class BreakCancel extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
+
+        //makes the class act like a config access point
         getConfig().options().copyDefaults();
         saveDefaultConfig();
         // Register the event listener
