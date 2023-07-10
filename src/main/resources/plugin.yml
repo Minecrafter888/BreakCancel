@@ -1,0 +1,4 @@
+name: BreakCancel
+version: '${project.version}'
+main: me.hephaestus.breakcancel.BreakCancel
+api-version: '1.16'
